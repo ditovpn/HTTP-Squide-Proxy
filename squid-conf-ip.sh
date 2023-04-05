@@ -1,6 +1,6 @@
 #!/bin/bash
-# Author: admin@serverOk.in
-# Web: https://www.serverok.in
+# Author: ian@dmsmarters.com
+# Web: https://www.dmsmarters.com
 
 IP_ALL=$(/sbin/ip -4 -o addr show scope global | awk '{gsub(/\/.*/,"",$4); print $4}')
 

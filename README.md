@@ -16,12 +16,6 @@ wget https://raw.githubusercontent.com/devmaxxph/squid-proxy/master/squid3-insta
 sudo bash squid3-install.sh
 ```
 
-## How to install Squid Proxy Server.
-
-https://rumble.com/vdswgv-install-squid-proxy-server-in-digitalocean-vps.html
-
-https://odysee.com/squid-proxy-install:1
-
 
 # Create Users
 

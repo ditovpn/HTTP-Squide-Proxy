@@ -1,7 +1,5 @@
 # Squid Proxy Installer
 
-https://serverok.in/squid
-
 Auto install Squid 3 proxy on following linux OS.
 
 * Ubuntu 14.04, 16.04, 18.04, 20.04, 22.04
@@ -70,10 +68,10 @@ sudo bash squid-conf-ip.sh
 
 # Change Squid Proxy Port
 
-https://serverok.in/how-to-change-port-of-squid-proxy-server
+sed -i 's/^http_port.*$/http_port 5555/g'  /etc/squid/squid.conf
 
 # Support
 
 If you are looking for paid support, contact me
 
-https://serverok.in/contact
+https://t.me/devmaxx
